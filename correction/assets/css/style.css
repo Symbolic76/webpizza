@@ -1,0 +1,146 @@
+/**
+ * Layout
+ */
+*, *:hover, *:focus {
+    outline: none;
+    border-color: inherit;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+
+/**
+ * Header
+ */
+
+.main-header {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(255,255,255,1);
+}
+
+
+
+/**
+ * Footer
+ */
+
+.googlemap, .contact {
+    background-color: #333333;
+    color: #FFFFFF;
+}
+.googlemap-content {
+    top: -80px;
+    height: 380px !important;
+    width: 100% !important;
+    position: relative;
+    overflow: hidden;
+}
+.googlemap iframe {
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    height: 200%;
+    width: 200%;
+}
+.copyright {
+    background-color: #ffffff;
+}
+
+
+
+/**
+ * Content
+ */
+
+/* sections */
+section {
+    margin-bottom: 80px;
+}
+section:last-child {
+    margin-bottom: 160px;
+}
+
+/* sections header */
+.section-header {
+    text-align: center;
+}
+.section-header .lead {
+    color: #797979;
+}
+.section-title {
+    margin: 0 0 10px 0;
+    padding: 0 0 10px 0;
+    text-transform: uppercase;
+
+    display: inline-block;
+    border-bottom: 3px solid #fbd708;
+}
+.section-title::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/* cards */
+.card {
+    border: none;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.card-title {
+    text-align: center;
+}
+.card-text {
+    text-align: justify;
+}
+
+
+.card .btn:hover {
+    background-color: brown;
+    color: white;
+}
+
+
+
+/**
+ * Content Pages
+ */
+
+.featured {
+    background-image: url(./../images/pizza-show-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+}
+
+.jumbotron {
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    top: 25%;
+    bottom: 25%;
+    
+}
+.jumbotron .lead{
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    line-height: 3.2rem;
+}
+.btn .btn-yellow{
+    background-color: yellow; 
+}
+.jumbotron .btn{
+    font-size: 90%;
+    background-color: yellow;
+    color: black;
+}
