@@ -7,6 +7,14 @@
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
 }
+.btn-yellow{
+    background-color: yellow;
+    color: black;
+}
+
+
+
+
 
 
 /**
@@ -49,7 +57,46 @@
 }
 .copyright {
     background-color: #ffffff;
+    text-align: center;
 }
+.contact{
+    text-align: center;
+    
+}
+.form-group{
+    padding-top: 20px;
+}
+.boutton{
+    margin-bottom: 50px;
+    background-color: yellow;
+    color: black;
+    border-radius: 5px;
+    border: none;
+}
+.satisfaction{
+    background-color: #333333;
+    color: white;
+    text-align: center;
+}
+.rating {
+    direction: rtl;
+ }
+ .rating a {
+    color: #aaa;
+    text-decoration: none;
+    font-size: 3em;
+    transition: color .4s;
+ }
+ .rating a:hover,
+ .rating a:focus,
+ .rating a:hover ~ a,
+ .rating a:focus ~ a {
+    color: orange;
+    cursor: pointer;
+ }
+ .comm{
+     width: 100%;
+ }
 
 
 
@@ -85,6 +132,9 @@ section:last-child {
     clear: both;
     display: block;
 }
+.container .col-4{
+    text-align: center;
+}
 
 /* cards */
 .card {
@@ -101,8 +151,9 @@ section:last-child {
 
 
 .card .btn:hover {
-    background-color: brown;
-    color: white;
+    background-color: yellow;
+    color: black;
+    border: none;
 }
 
 
