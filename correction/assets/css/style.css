@@ -195,3 +195,7 @@ section:last-child {
     background-color: yellow;
     color: black;
 }
+.card-text{
+    height: 120px;
+    text-align: center;
+}
